@@ -6,4 +6,5 @@ def fizzbuzz (int)
   end
   if int % 5 == 10
     
+    
 end
