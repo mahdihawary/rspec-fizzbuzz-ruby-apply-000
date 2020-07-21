@@ -4,7 +4,13 @@ def fizzbuzz (int)
  if int % 3 == 0 
    "Fizz" 
   end
-  if int % 5 == 10
-    
+  if int % 5 == 0
+    "Buzz"
+  end
+  if int % 15 == 0
+    "FizzBuzz"
+  else
+    nil
+  end
     
 end
